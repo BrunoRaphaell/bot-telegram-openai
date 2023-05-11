@@ -4,9 +4,31 @@ Para o desenvolvimento do projeto vamos utilizar o vscode. Caso você ainda não
 
 ## Exemplo inicial para as pessoas entenderem como funciona
 
-**Lembrar de desligar github copilot**
+Antes de tudo vamos criar um ambiente virtual e instalar as bibliotecas necessárias para o projeto. Para isso, execute o seguinte comando no diretório onde estiver o arquivo `requirements.txt`:
 
-[Documentação telepot](https://telepot.readthedocs.io/en/latest/)
+```bash
+sudo apt install python3-virtualenv
+```
+
+```bash
+virtualenv <nome_do_ambiente>
+source <nome_do_ambiente>/bin/activate
+```
+
+```bash
+pip install -r requirements.txt
+```
+Vamos precisar instalar a seguinte biblioteca em nosso Ubuntu:
+
+```bash
+sudo apt install ffmpeg
+```
+
+O comando "sudo apt-get install ffmpeg" é utilizado para instalar a biblioteca FFmpeg no sistema operacional Ubuntu ou em outros sistemas operacionais baseados em Debian.
+
+A biblioteca FFmpeg é uma coleção de bibliotecas e ferramentas para processar áudio e vídeo. Ela é usada para converter, gravar e transmitir áudio e vídeo em diferentes formatos, além de ser capaz de capturar e transmitir fluxos de áudio e vídeo em tempo real.
+
+**Código inicial:**
 
 ```python
 
@@ -32,6 +54,8 @@ bot.message_loop(principal)
 while 1:
     sleep(5)
 ```
+
+[Documentação telepot](https://telepot.readthedocs.io/en/latest/)
 
 Os campos `content_type` , `chat_type` e `chat_id` são retornos do método glance da classe Telepot, que extrai as informações sobre a mensagem recebida.
 
@@ -117,7 +141,7 @@ audio_file= open("/path/to/file/audio.mp3", "rb")
 transcript = openai.Audio.transcribe("whisper-1", audio_file)
 ```
 
-*Obs: O modelo é suporta os seguintes formatos de áudio `mp3`, `mp4`, `mpeg`, `mpga`, `m4a`, `wav` e `webm`.*
+*Obs: O modelo suporta os seguintes formatos de áudio `mp3`, `mp4`, `mpeg`, `mpga`, `m4a`, `wav` e `webm`.*
 
 *Obs: Conforme aviso acima, certifique-se que você está utilizando a versão 0.27.0 da biblioteca do openAI. Para isso, execute o comando abaixo:*
 
@@ -131,5 +155,4 @@ Caso não esteja atualize com o seguinte comando:
 pip install --upgrade openai
 ```
 
-Pronto! Alinhada as expectativas vamos para o código:
-
+Pronto! Alinhada as expectativas vamos para o código.
