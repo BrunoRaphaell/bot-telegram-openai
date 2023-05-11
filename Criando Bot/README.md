@@ -31,33 +31,54 @@ Você pode me controlar enviando estes comandos:
 
 **Editar Bots**
 /setname - alterar o nome de um bot
+
 /setdescription - alterar a descrição do bot
+
 /setabouttext - alterar as informações sobre o bot
+
 /setuserpic - alterar a foto de perfil do bot
+
 /setcommands - alterar a lista de comandos
+
 /deletebot - excluir um bot
 
 **Configurações do Bot**
 /token - gerar um token de autorização
+
 /revoke - revogar o token de acesso do bot
+
 /setinline - ativar/desativar o modo inline (https://core.telegram.org/bots/inline)
+
 /setinlinegeo - ativar/desativar solicitações de localização inline (https://core.telegram.org/bots/inline#location-based-results)
+
 /setinlinefeedback - alterar as configurações de feedback inline (https://core.telegram.org/bots/inline#collecting-feedback)
+
 /setjoingroups - permitir que seu bot seja adicionado a grupos?
+
 /setprivacy - ativar/desativar o modo de privacidade (https://core.telegram.org/bots/features#privacy-mode) em grupos
 
 **Aplicativos Web**
+
 /myapps - editar seus aplicativos web (https://core.telegram.org/bots/webapps)
+
 /newapp - criar um novo aplicativo web (https://core.telegram.org/bots/webapps)
+
 /listapps - obter uma lista de seus aplicativos web
+
 /editapp - editar um aplicativo web
+
 /deleteapp - excluir um aplicativo web existente
 
 **Jogos**
+
 /mygames - editar seus jogos (https://core.telegram.org/bots/games)
+
 /newgame - criar um novo jogo (https://core.telegram.org/bots/games)
+
 /listgames - obter uma lista de seus jogos
+
 /editgame - editar um jogo
+
 /deletegame - excluir um jogo existente
 
 ## Criando um bot
