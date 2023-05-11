@@ -1,4 +1,16 @@
-# Criando o bot
+# Criando o bot do telegram para transcrição de áudio
+
+## Instalando o WSL2
+
+[Siga para as instruções de como instalar o WSL2](https://github.com/BrunoRaphaell/Quinta-com-dados/tree/master/Instalando%20WSL2)
+
+## Criando um Bot do Telegram
+
+[Instruções de como criar um bot](https://github.com/BrunoRaphaell/Quinta-com-dados/tree/master/Criando%20Bot)
+
+## Obtendo o token da API da openAI:
+
+[Como obter o token da API da openAI](https://github.com/BrunoRaphaell/Quinta-com-dados/tree/master/API%20openAI)
 
 Para o desenvolvimento do projeto vamos utilizar o vscode. Caso você ainda não o tenha instalado deixo o artigo: [VisualStudio Code: instalação, teclas de atalho, plugins e integrações](https://www.alura.com.br/artigos/visualstudio-code-instalacao-teclas-de-atalho-plugins-e-integracoes) como conteúdo complementar. 
 
